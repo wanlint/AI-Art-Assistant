@@ -7,7 +7,7 @@ from diffusers import StableDiffusionPipeline
 model_id = "CompVis/stable-diffusion-v1-4"
 device = "cpu"
 
-pipe = StableDiffusionPipeline.from_pretrained(model_id)  # Remove torch_dtype argument
+pipe = StableDiffusionPipeline.from_pretrained(model_id) 
 pipe = pipe.to(device)
 
 prompt = "a photo of an astronaut riding a horse on mars"
