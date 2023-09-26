@@ -10,7 +10,7 @@ device = "cpu"
 pipe = StableDiffusionPipeline.from_pretrained(model_id) 
 pipe = pipe.to(device)
 
-prompt = "a photo of an astronaut riding a horse on mars"
+prompt = "a painting of an students in class studying"
 image = pipe(prompt).images[0]  
     
-image.save("astronaut_rides_horse.png")
+image.save("students.png")
