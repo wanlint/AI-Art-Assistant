@@ -10,7 +10,7 @@ device = "cpu"
 pipe = StableDiffusionPipeline.from_pretrained(model_id) 
 pipe = pipe.to(device)
 
-prompt = "a painting of an students in class studying"
+prompt = "a monkey eating a hamburger, where the mood of the paining is anxiety, using Surrealism and in Johannes Vermeer style"
 image = pipe(prompt).images[0]  
     
-image.save("students.png")
+image.save("starbucsk.png")
