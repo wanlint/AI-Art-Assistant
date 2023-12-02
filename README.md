@@ -7,8 +7,7 @@ The primary objective of this project is to leverage artificial intelligence (AI
 By harnessing the capabilities of AI, we intend to enable creators to generate new and original masterpieces that not only reflect their distinct individual styles but also seamlessly blend the timeless artistic legacies of the past with the vibrancy of present-day creativity. Through this initiative, we aspire to inspire and captivate both artists and art enthusiasts, pushing the boundaries of artistic expression in the digital era and fostering a harmonious synergy between tradition and innovation.
 
 ## Overview
-- Art_mood folder:
-
+- Art_mood:
     - Objective: An attempt to utilise Conditional Generative Adversarial Networks (cGAN), art_mood explores mood transfer in images. The project endeavors to transform images based on textual mood input, employing innovative AI techniques to blend colors and evoke distinct emotional atmospheres.
       
 - Diffusion_model:
