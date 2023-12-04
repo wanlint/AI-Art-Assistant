@@ -27,6 +27,6 @@ The folder structure should look like this:
 
 3. **Training.ipynb**: In this notebook, we train the mood transfer model. There are two models discussed: one that utilizes all the emotions in the dataset and another that uses a condensed version of emotions grouped into "happy," "sad," and "neutral." Model 1, with all moods, has an extended training time, making it impractical for use. Model 2, with condensed emotions, is successfully trained. Refer to the notebook for detailed information.
 
-4. **Training.ipynb**: This notebook also includes a demonstration on the use of the trained models - inputting an image to product an output. Note that there are two models available, but they are essentially the same this is because the keywords "happy" and "sad" are embedded into the model for ease of use. When downloading the model, v1 corresponds to "happy," while v2 corresponds to "sad."
+4. **Training.ipynb**: This notebook also includes a demonstration on the use of the trained models - inputting an image to product an output. Note that there are two models available, but they are essentially the same this is because the keywords "happy" and "sad" are embedded into the model for ease of use. When downloading the model, v1 corresponds to "sad", while v2 corresponds to "happy". The first block of code in "model 2" in "testing the outputs" is working.
 
 Feel free to explore each notebook for a more in-depth understanding of the mood transfer model and its training process.
