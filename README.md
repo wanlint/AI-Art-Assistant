@@ -15,3 +15,6 @@ By harnessing the capabilities of AI, we intend to enable creators to generate n
  
 - CLIP_Score:
     - Objective: Used in Evaluation part of our project, where we compared the generative ability of text-to-image models for VQGAN+CLIP and diffusion model. It calculates how similar an image output is to it's text input.
+
+- Evaluation Metrics:
+    - Objective: Used to evaluate the performance of the models.
