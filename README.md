@@ -13,8 +13,13 @@ By harnessing the capabilities of AI, we intend to enable creators to generate n
 - Diffusion_model:
     - Objective: The diffusion_model project focuses on art and style transfer, leveraging advanced techniques to seamlessly integrate artistic styles into images. By exploring diffusion models, the project aims to elevate the process of transferring artistic content, contributing to the realm of creative expression in digital art.
  
+- Evaluation Metrics:
+    - Objective: Used to evaluate the performance of the models.
+
+- Style Transfer:
+    - Objective: Are used to perform style transfer from a style image onto the generated images from the text-to-image models.
+
 - CLIP_Score:
     - Objective: Used in Evaluation part of our project, where we compared the generative ability of text-to-image models for VQGAN+CLIP and diffusion model. It calculates how similar an image output is to it's text input.
 
-- Evaluation Metrics:
-    - Objective: Used to evaluate the performance of the models.
+
