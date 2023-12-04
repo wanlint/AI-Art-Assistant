@@ -53,7 +53,7 @@ For the CLIP Score metric, adhere to the following instructions:
 ```
 python -m clip_score image text
 ```
-7. Run the following command to get the CLIP Score for VQGAN+CLIP:
+7. Run the following command to get the CLIP Score for diffusion model:
 ```
 python -m clip_score image-2 text-2
 ``` 
