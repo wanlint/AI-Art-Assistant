@@ -1,3 +1,0 @@
-Put unCLIP checkpoints here.
-https://huggingface.co/stabilityai/stable-diffusion-2-1-unclip/tree/main
-Download the .ckpt files and place them here
